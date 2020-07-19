@@ -1,1 +1,3 @@
-export.test
+export.test = function(context, event) {
+    return "TEST";
+};
