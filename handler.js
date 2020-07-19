@@ -1,4 +1,4 @@
-import {test} from '/test.js';
+const test = require('./test');
 
 exports.handler = function(context, event) {
     var body = event.body.toString(); // event.body is a Buffer
